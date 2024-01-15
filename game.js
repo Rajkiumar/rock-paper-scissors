@@ -63,13 +63,13 @@ function computerRandom() {
     x = Math.ceil(Math.random() * 3);
     switch (x) {
         case 1:
-            compImg.setAttribute("src", "assets/rock-hand.png");
+            compImg.setAttribute("src", "./assets/rock-hand.png");
             break;
         case 2:
-            compImg.setAttribute("src", "assets/paper-hand.png");
+            compImg.setAttribute("src", "./assets/paper-hand.png");
             break;
         case 3:
-            compImg.setAttribute("src", "assets/scissors-hand.png");
+            compImg.setAttribute("src", "./assets/scissors-hand.png");
             break;
     }
 }
