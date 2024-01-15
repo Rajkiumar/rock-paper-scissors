@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock paper scissors</title>
+    <link rel="stylesheet" href="./game.css">
+</head>
+<body>
+    <div id="main-container">
+        <div id="score"><span id="playerscore">0</span> - <span id="computerscore">0</span></div>
+        <div id="game-board">
+        <div id="player-side">
+            <h1>You</h1>
+            <div id="images">
+                <img src="./assets/rock-hand.png" alt="" class="mechance" id="rock-hand-image">
+                <img src="./assets/paper-hand.png" alt="" class="mechance" id="paper-hand-image">
+                <img src="./assets/scissors-hand.png" alt="" class="mechance" id="scissors-hand-image">
+            </div>
+            <div id="ctrbtn">
+            <img src="./assets/rock-logo.png" alt="" id="rock" class="button">
+            <img src="./assets/paper-logo.png" alt="" id="paper" class="button">
+            <img src="./assets/scissors-logo.png" alt="" id="scissors" class="button">
+        </div>
+        </div>
+        <div id="vs"><img src="./assets/vs.png" alt=""></div>
+        <div id="computer-side">
+            <h1>Computer</h1>
+            <img src="" alt="" class="computer-chance">            
+        </div>
+        </div>
+        <div id="final">
+            <span id="gameStatus"></span>
+            <div id="button"><button id="again">Play Again</button></div>
+        </div>
+    </div>
+<script src="game.js"></script>  
+</body>
+</html>
