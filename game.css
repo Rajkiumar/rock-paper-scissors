@@ -33,13 +33,13 @@ h1{
     color: white;
     
 }
-#ctrbtn{
+#control-buttons{
     margin-left: 20px;
     margin-top: 250px;
     display: flex;
     justify-content: space-evenly;  
 }
-.mechance{
+.player-chance{
     height: 250px;
     display: none;
     position: absolute;
@@ -63,7 +63,7 @@ h1{
     display: flex;
     justify-content: center; 
 }
-#again{
+#play-Again{
     width: 150px;
     height: 40px;
     border-color: white;
@@ -77,6 +77,6 @@ h1{
     margin-top: 30px;
     color: white;
 }
-#final{
+#gameOver{
     display: none;
 }
