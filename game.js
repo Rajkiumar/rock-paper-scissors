@@ -77,7 +77,7 @@ var statusofGame = document.getElementById("gameStatus");
 function checkWin() {
     if (playerScore == 5) {
         gameover.style.display = "block";
-        statusofGame.textContent = "Player won the game";
+        statusofGame.textContent = "You won the game";
         controlBtn.style.display="none"
     } else if (computerScore == 5) {
         gameover.style.display = "block";
